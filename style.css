@@ -1,0 +1,170 @@
+body {
+	font: 15px/1.5 Arial,Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	padding:0;
+	margin:0;
+}
+
+.button_1{
+	height:38px;
+	background:#e8491d;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#fff;
+}
+
+
+/*Header*/
+header{
+	background:#35424a;
+	color:#fff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
+}
+
+header a{
+	color:#fff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+	text-transform: uppercase;
+}
+
+header .highlight, header .current a{
+	color:#e8491d;
+	font-weight: bold;
+}
+
+header a:hover{
+	color:#ccc;
+	font-weight:bold;
+	text-transform: uppercase;
+	border-bottom: #e8491d solid 2px;
+}
+header a:active{
+	color: #e8491d;
+	border-bottom: #e8491d solid 2px;
+}
+
+/*Showcase*/
+#showcase{
+	min-height:400px;
+	background:url('../img/camara.jpeg') no-repeat 0 -400px;
+	text-align: center;
+	color:#eee;
+	border-bottom:#e8491d solid 3px; 
+}
+
+#showcase h1{
+	margin-top:100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 5px #e8491d;
+}
+
+#showcase p{
+	font-size:20px;
+	text-shadow: 1px 1px 5px #e8491d;
+}
+
+/*Newsletter*/
+#newsletter{
+	padding: 15px;
+	color:#fff;
+	background:#35424a;
+}
+
+#newsletter h1{
+	float:left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+/*Boxes*/
+#boxes{
+	margin-top:40px;
+}
+
+#boxes .box{
+	float:left;
+	text-align:center;
+	width:31%;
+	padding:10px;
+	color:#35424a;
+	text-transform:uppercase;
+}
+
+#boxes .box p{
+	text-transform: none;
+}
+
+#boxes .box img{
+	width:300px;
+	border:#e8491d solid 2px;
+}
+
+/*Social Media*/
+#socialmedia{
+	margin:0;
+	padding:0;
+	text-align:center;
+	color:#e8491d;
+}
+
+#socialmedia a{
+	text-decoration:none;
+	padding: 10px;
+}
+
+/*Footer*/
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:#fff;
+	background-color:#35424a;
+	text-align:center;
+	border-top:#e8491d solid 3px; 
+}
